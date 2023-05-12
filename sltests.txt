@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 import matplotlib.pyplot as plt
 import requests
+import numpy as np
 import seaborn as sns
 from bs4 import BeautifulSoup
 from urllib.parse import urlparse
@@ -15,6 +16,7 @@ while True:
     url = f"https://bigfive-test.com/result/{identificador}"
 
     # Obtener la respuesta HTTP de la URL
+
     response = requests.get(url)
 
     # Buscar la frase ""Request failed with status code 500"" en la URL    
