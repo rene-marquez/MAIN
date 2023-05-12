@@ -1,19 +1,4 @@
-pip3 install requests
-pip3 install bs4
-pip3 install beautifulsoup4
-pip3 install seaborn
-pip3 install matplotlib
-pip3 install streamlit
 
-import requests
-import streamlit as st
-import pandas as pd
-import matplotlib.pyplot as plt
-import requests
-import numpy as np
-import seaborn as sns
-from bs4 import BeautifulSoup
-from urllib.parse import urlparse
 # Solicitar el nombre por teclado
 userName = input("¿Cuál es tu nombre?:")
 # Solicitar el identificador por teclado
