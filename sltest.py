@@ -1,3 +1,10 @@
+pip3 install requests
+pip3 install bs4
+pip3 install beautifulsoup4
+pip3 install seaborn
+pip install matplotlib
+pip3 install streamlit
+
 import requests
 import streamlit as st
 import pandas as pd
